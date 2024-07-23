@@ -1,5 +1,5 @@
 {
-    "name": "extra:golts_altar",
+    "name": "extra:dedland",
     "fallback": "minecraft:empty",
     "elements": [
         {
@@ -7,7 +7,7 @@
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
                 "processors": "minecraft:empty",
-                "location": "extra:golts_altar"
+                "location": "extra:dedland"
             },
             "weight": 1
         }

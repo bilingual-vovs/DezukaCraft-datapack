@@ -1,21 +1,24 @@
 {
     "type": "minecraft:jigsaw",
-    "biomes": ["minecraft:meadow",
-        "badlands",
+    "biomes": [
+        "minecraft:meadow",
         "birch_forest",
-        "forest",
-        "desert",
-        "snowy_taiga",
-        "sunflower_plains"
+        "dark_forest",
+        "plains",
+        "jungle",
+        "taiga",
+        "old_growth_birch_forest",
+        "minecraft:swamp",
+        "snowy_taiga"
     ],
     "max_distance_from_center": 80,
-    "size": 5,
-    "start_pool": "extra:golts_altar",
+    "size": 3,
+    "start_pool": "extra:bunker",
     "step": "surface_structures",
     "terrain_adaptation": "beard_thin",
     "use_expansion_hack": false,
     "start_height": {
-        "absolute": 0
+        "absolute": -8
     },
     "project_start_to_heightmap": "WORLD_SURFACE_WG",
     "spawn_overrides": {}
