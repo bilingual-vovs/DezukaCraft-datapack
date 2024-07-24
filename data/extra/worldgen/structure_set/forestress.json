@@ -1,14 +1,14 @@
 {
     "structures": [
         {
-            "structure": "extra:tent",
+            "structure": "extra:forestress",
             "weight": 1
         }
     ],
     "placement": {
         "type": "minecraft:random_spread",
-        "spacing": 50,
-        "separation": 25,
-        "salt": 43251
+        "spacing": 60,
+        "separation": 40,
+        "salt": 96392
     }
 }
