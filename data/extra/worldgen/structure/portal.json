@@ -5,7 +5,8 @@
         "desert",
         "forest",
         "frozen_peaks",
-        "snowy_taiga"
+        "snowy_taiga",
+        "plains"
     ],
     "max_distance_from_center": 80,
     "size": 3,

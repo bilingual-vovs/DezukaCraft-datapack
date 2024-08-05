@@ -8,14 +8,13 @@
         "jungle",
         "taiga",
         "old_growth_birch_forest",
-        "minecraft:swamp",
         "snowy_taiga"
     ],
     "max_distance_from_center": 80,
     "size": 3,
     "start_pool": "extra:bunker",
     "step": "surface_structures",
-    "terrain_adaptation": "beard_thin",
+    "terrain_adaptation": "bury",
     "use_expansion_hack": false,
     "start_height": {
         "absolute": -8

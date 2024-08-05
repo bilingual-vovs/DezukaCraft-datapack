@@ -1,12 +1,10 @@
 {
     "type": "minecraft:jigsaw",
     "biomes": ["minecraft:meadow",
-        "badlands",
         "birch_forest",
         "forest",
-        "desert",
-        "snowy_taiga",
-        "sunflower_plains"
+        "sunflower_plains",
+        "meadow"
     ],
     "max_distance_from_center": 80,
     "size": 5,
