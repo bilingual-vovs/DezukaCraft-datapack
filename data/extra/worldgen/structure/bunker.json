@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:jigsaw",
+    "biomes": [
+        "minecraft:meadow",
+        "birch_forest",
+        "dark_forest",
+        "plains",
+        "jungle",
+        "taiga",
+        "old_growth_birch_forest",
+        "snowy_taiga"
+    ],
+    "max_distance_from_center": 80,
+    "size": 3,
+    "use_expansion_hack": false,
+    "start_height": {
+        "absolute": 0
+    },
+    "start_pool": "extra:bunker_top",
+    "step": "surface_structures",
+    "terrain_adaptation": "beard_thin",
+    "project_start_to_heightmap": "WORLD_SURFACE_WG",
+    "spawn_overrides": {}
+}
