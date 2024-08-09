@@ -10,6 +10,15 @@
                 "location": "extra:bunker_bottom_1"
             },
             "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "extra:bunker_bottom_2"
+            },
+            "weight": 4
         }
     ]
 }
