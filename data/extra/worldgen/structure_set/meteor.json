@@ -1,14 +1,14 @@
 {
     "structures": [
         {
-            "structure": "extra:admin_haus",
+            "structure": "extra:meteor",
             "weight": 1
         }
     ],
     "placement": {
         "type": "minecraft:random_spread",
-        "spacing": 40,
-        "separation": 20,
-        "salt": 25255
+        "spacing": 50,
+        "separation": 35,
+        "salt": 492124214
     }
 }

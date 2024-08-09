@@ -1,0 +1,63 @@
+{
+    "name": "extra:meteor",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "extra:meteor_food"
+            },
+            "weight": 5
+        },{
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "extra:meteor_gold"
+            },
+            "weight": 1
+        },{
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "extra:meteor_gold_2"
+            },
+            "weight": 1
+        },{
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "extra:meteor_govno"
+            },
+            "weight": 6
+        },{
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "extra:meteor_sand"
+            },
+            "weight": 5
+        },{
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "extra:meteor_stone"
+            },
+            "weight": 5
+        },{
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "extra:meteor_wood"
+            },
+            "weight": 4
+        }
+    ]
+}
