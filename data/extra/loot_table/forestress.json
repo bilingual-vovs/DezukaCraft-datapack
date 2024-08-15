@@ -1,0 +1,107 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:mangrove_propagule",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": -2,
+                  "max": 2
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:jungle_sapling",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": -2,
+                  "max": 3
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:birch_planks",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 10,
+                  "max": 25
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:spruce_planks",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 5,
+                  "max": 30
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": {
+          "type": "minecraft:uniform",
+          "min": -1,
+          "max": 2
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_axe"
+          }
+        ]
+      },
+      {
+        "rolls": {
+          "type": "minecraft:uniform",
+          "min": 3,
+          "max": 7
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:cobweb"
+          }
+        ]
+      }
+    ]
+  }
+  

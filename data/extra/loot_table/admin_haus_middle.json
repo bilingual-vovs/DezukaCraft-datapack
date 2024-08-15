@@ -1,0 +1,108 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:golden_carrot",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 2,
+                  "max": 15
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": {
+          "type": "minecraft:uniform",
+          "min": -2,
+          "max": 3
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:diamond"
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:cobweb",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 10,
+                  "max": 30
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": {
+          "type": "minecraft:uniform",
+          "min": -4,
+          "max": 1
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:diamond_helmet"
+          }
+        ]
+      },
+      {
+        "rolls": {
+          "type": "minecraft:uniform",
+          "min": -4,
+          "max": 1
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:diamond_leggings"
+          }
+        ]
+      },
+      {
+        "rolls": {
+          "type": "minecraft:uniform",
+          "min": -4,
+          "max": 1
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:diamond_boots"
+          }
+        ]
+      },
+      {
+        "rolls": {
+          "type": "minecraft:constant",
+          "value": -4
+        },
+        "bonus_rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:diamond_chestplate"
+          }
+        ]
+      }
+    ]
+  }
+  
