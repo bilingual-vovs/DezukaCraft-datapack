@@ -9,7 +9,7 @@
                 "processors": "minecraft:empty",
                 "location": "extra:bunker_bottom_1"
             },
-            "weight": 1
+            "weight": 25
         },
         {
             "element": {
@@ -18,7 +18,16 @@
                 "processors": "minecraft:empty",
                 "location": "extra:bunker_bottom_2"
             },
-            "weight": 4
+            "weight": 75
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "extra:bunker_bottom_top"
+            },
+            "weight": 1
         }
     ]
 }
